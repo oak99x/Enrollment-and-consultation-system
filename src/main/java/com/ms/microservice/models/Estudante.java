@@ -22,17 +22,16 @@ public class Estudante implements Serializable {
     @EqualsAndHashCode.Include
     private Long id;
 
-    @NotNull
+    @Column(nullable = false)
     private String nome;
 
-    @NotNull
-    @Column(unique = true)
+    @Column(nullable = false, unique = true)
     private String cpf;
 
-    @NotNull
+    @Column(nullable = false)
     private String endereco;
 
-    @Column(unique = true)
+    @Column(nullable = false, unique = true)
     private Long matricula;
 
     @JsonIgnore

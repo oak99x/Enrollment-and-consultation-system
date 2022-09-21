@@ -23,14 +23,13 @@ public class Disciplina implements Serializable {
     @EqualsAndHashCode.Include
     private Long id;
 
-    @NotNull
-    @Column(unique = true)
+    @Column(nullable = false, unique = true)
     private Long codigo;
 
-    @NotNull
+    @Column(nullable = false)
     private String nome;
 
-    @NotNull
+    @Column(nullable = false)
     private String horario;
 
     @JsonIgnore
