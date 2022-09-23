@@ -11,9 +11,9 @@ Mateus Freitas
 A api se encontra disponivel na plataforma da Heroku.
 Subimos a aplicação para facilitar a população do banco de dados e posteriormente para seu uso nas consultas.
 
-Login padrão
-username: admin
+Login padrão <br>
+username: admin <br>
 password: admin
 
-Link:
+Link:<br>
 https://engsoft-microservice.herokuapp.com/
