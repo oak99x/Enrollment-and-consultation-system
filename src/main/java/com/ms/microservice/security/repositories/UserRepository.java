@@ -1,5 +1,6 @@
-package com.ms.microservice.security.users;
+package com.ms.microservice.security.repositories;
 
+import com.ms.microservice.security.users.UserModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

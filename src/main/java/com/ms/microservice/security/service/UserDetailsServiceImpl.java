@@ -1,7 +1,7 @@
 package com.ms.microservice.security.service;
 
 import com.ms.microservice.security.users.UserModel;
-import com.ms.microservice.security.users.UserRepository;
+import com.ms.microservice.security.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

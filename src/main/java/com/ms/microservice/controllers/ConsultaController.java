@@ -33,7 +33,7 @@ public class ConsultaController {
         return new ResponseEntity<>(turmas, HttpStatus.OK);
     }
 
-    @GetMapping("/diciplina/lista-estudantes/{codigo}")
+    @GetMapping("/disciplina/lista-estudantes/{codigo}")
     public ResponseEntity<List<Estudante>> estudantesDaDisciplina(@PathVariable("codigo") Long disciplinaCode){
         List<Estudante> estudantes = consultaService.estudantesDaDisciplina(disciplinaCode);
         return new ResponseEntity<>(estudantes, HttpStatus.OK);
