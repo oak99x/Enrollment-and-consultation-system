@@ -1,7 +1,7 @@
 # Engenharia de Software II
 # Simple-Microservice
 Microsserviço Simples <br>
-Sistema simples de matricula e consulta(turmas, alunos, disciplinas)
+Sistema academico simples com foco no cadastro e consultas - de turmas, alunos, disciplinas
 
 # Integrantes
 Cassiano Flores <br>
